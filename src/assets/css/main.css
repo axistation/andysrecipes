@@ -447,8 +447,9 @@ form > *:last-child {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: var(--black);
+  background: var(--primary-500);
   color: var(--white);
+  margin-top: 2rem;
 }
 .page-footer h5 {
   margin-bottom: 0;
@@ -458,7 +459,7 @@ form > *:last-child {
 }
 .page-footer span,
 .page-footer a {
-  color: var(--primary-500);
+  color: var(--white);
 }
 
 /*#########*/
