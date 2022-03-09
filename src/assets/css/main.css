@@ -96,7 +96,7 @@ a {
 
 p {
   margin: 0;
-  margin-bottom: 1rem;
+  /* margin-bottom: 1rem; */
   max-width: 40em;
 }
 
@@ -172,7 +172,7 @@ textarea {
   border-radius: var(--borderRadius);
   background: var(--grey-0);
   border-color: transparent;
-  border: 1px solid var(--grey-300);
+  border: 1px solid var(--grey-400);
 }
 .form-row {
   margin-bottom: 1rem;
@@ -387,7 +387,7 @@ form > *:last-child {
   color: var(--grey-1000);
   letter-spacing: var(--letterSpacing);
   padding: 1rem 0;
-  border-top: 1px solid var(--grey-500);
+  border-top: 1px solid var(--grey-400);
   transition: var(--transition);
 }
 .active-link {
@@ -502,6 +502,9 @@ form > *:last-child {
   display: grid;
   gap: 2rem 4rem;
   padding-bottom: 3rem;
+}
+.about-page p {
+  margin-bottom: 1rem;
 }
 .about-img {
   border-radius: var(--borderRadius);
@@ -764,6 +767,9 @@ form > *:last-child {
     grid-template-columns: 1fr 2fr;
   }
 }
+.single-instruction {
+  margin-bottom: 2rem;
+}
 .single-instruction header {
   display: grid;
   grid-template-columns: auto 1fr;
@@ -779,21 +785,24 @@ form > *:last-child {
 
 .single-instruction header div {
   height: 1px;
-  background: var(--grey-500);
+  background: var(--grey-400);
 }
 
-.second-column {
+/* .second-column {
   display: grid;
   row-gap: 2rem;
-}
+} */
 
 .single-ingredient {
-  border-bottom: 1px solid var(--grey-500);
-  padding-bottom: 0.75rem;
+  /* border-bottom: 1px solid var(--grey-500); */
+  /* padding-bottom: 0.02rem; */
+}
+.ingredients {
+  margin-bottom: 2rem;
 }
 .single-tool {
-  border-bottom: 1px solid var(--grey-500);
-  padding-bottom: 0.75rem;
-  color: var(--light-dark);
+  /* border-bottom: 1px solid var(--grey-500); */
+  /* padding-bottom: 0.02rem; */
+  color: var(--textColor);
   text-transform: capitalize;
 }
