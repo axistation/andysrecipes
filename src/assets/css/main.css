@@ -63,7 +63,7 @@
   --textColor: var(--grey-1000);
   --borderRadius: 0.25rem;
   --letterSpacing: 1px;
-  --transition: 0.3s ease-in-out all;
+  /*  --transition: 0.3s ease-in-out all; */
   --max-width: 1120px;
   --fixed-width: 600px;
 }
@@ -87,6 +87,10 @@ body {
   font-family: var(--bodyFont);
   font-weight: 400;
   line-height: 1.75;
+}
+
+a {
+  color: var(--primary-500);
 }
 
 p {
@@ -377,6 +381,7 @@ form > *:last-child {
   display: block;
   text-align: center;
   font-size: 1.5rem;
+  font-weight: 600;
   text-transform: capitalize;
   color: var(--grey-1000);
   letter-spacing: var(--letterSpacing);
@@ -581,6 +586,7 @@ form > *:last-child {
   font-weight: bold;
 }
 .tags-list a {
+  font-size: 0.8rem;
   text-transform: capitalize;
   display: block;
   color: var(--grey-800);
@@ -591,6 +597,9 @@ form > *:last-child {
 }
 .recipe {
   display: block;
+}
+.recipe:hover {
+  opacity: 0.9;
 }
 .recipe-img {
   height: 15rem;
@@ -666,7 +675,7 @@ form > *:last-child {
   border-radius: var(--borderRadius);
   text-align: center;
   color: var(--white);
-  transition: var(--transition);
+  /* transition: var(--transition); */
   padding: 0.75rem 0;
 }
 .tag:hover {

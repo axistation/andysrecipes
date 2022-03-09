@@ -16,14 +16,15 @@ const About = ({
       <main className="page">
         <section className="about-page">
           <article>
-            <h2>I'm baby coloring book poke taxidermy</h2>
+            <h2>About</h2>
             <p>
-              Taxidermy forage glossier letterpress heirloom before they sold
-              out you probably haven't heard of them banh mi biodiesel chia.
+              You can find a large collection of recipes here to fulfill your
+              cooking desires. From East to West, feasts to healthy meals, we
+              got you covered.
             </p>
             <p>
-              Taiyaki tumblr flexitarian jean shorts brunch, aesthetic salvia
-              retro.
+              If you have any comments or questions, please feel free to visit
+              our contact page.
             </p>
             <Link to="/contact" className="btn">
               contact
@@ -37,7 +38,7 @@ const About = ({
           />
         </section>
         <section className="featured-recipes">
-          <h5>Look at this Awesomesouce!</h5>
+          <h5>Featured Recipes</h5>
           <RecipesList recipes={recipes} />
         </section>
       </main>
