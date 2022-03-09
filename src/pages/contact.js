@@ -16,10 +16,8 @@ const Contact = ({ data }) => {
             <p>Get in touch, we'd love to hear from you.</p>
             <p>
               Whether you want to improve on a recipe or suggest a new recipe.
-              You may fill out this form or directly email me at{" "}
-              <a href="mailto:andysrecipes@outlook.com">
-                andysrecipes@outook.com.
-              </a>
+              You may fill out this form or directly
+              <a href="mailto:andysrecipes@outlook.com">email me</a>.
             </p>
           </article>
           <article>
