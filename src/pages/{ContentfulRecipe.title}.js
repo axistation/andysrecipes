@@ -1,7 +1,8 @@
 import React from "react"
 import { graphql, Link } from "gatsby"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
-import { BsClockHistory, BsClock, BsPeople } from "react-icons/bs"
+import { BsClockHistory, BsPeople } from "react-icons/bs"
+import { BsBarChart } from "react-icons/bs"
 import Layout from "../components/Layout"
 import slugify from "slugify"
 import SEO from "../components/SEO"
@@ -37,7 +38,7 @@ const RecipeTemplate = ({ data }) => {
               {/* icons */}
               <div className="recipe-icons">
                 <article>
-                  <BsClock />
+                  <BsBarChart />
                   <h5>difficulty</h5>
                   <p>{difficulty}</p>
                 </article>
