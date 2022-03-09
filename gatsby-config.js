@@ -46,7 +46,7 @@ module.exports = {
         fonts: {
           google: [
             {
-              family: "Montserrat",
+              family: "Noto Sans JP",
               variants: ["400"],
             },
             {

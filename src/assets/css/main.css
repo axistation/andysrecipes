@@ -15,9 +15,9 @@
   --primary-300: #938dff;
   --primary-400: #7b74ff;
   /* main */
-  --primary-500: #645cff;
+  --primary-500: #ff5a5f;
   --primary-600: #554ed9;
-  --primary-700: #4640b3;
+  --primary-700: #f15459;
   --primary-800: #37338c;
   --primary-900: #282566;
   --primary-1000: #191740;
@@ -54,8 +54,8 @@
     0 10px 10px -5px rgba(0, 0, 0, 0.04);
   /* typography */
   --defaultFontSize: 87.5%;
-  --headingFont: "Inconsolata", monospace;
-  --bodyFont: "Montserrat", sans-serif;
+  --headingFont: "Noto Sans JP";
+  --bodyFont: "Noto Sans JP";
   --smallText: 0.8em;
   --extraSmallText: 0.7em;
   /* rest */
