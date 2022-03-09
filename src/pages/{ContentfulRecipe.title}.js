@@ -15,6 +15,7 @@ const RecipeTemplate = ({ data }) => {
     servings,
     description: { description },
     image,
+    difficulty,
   } = data.contentfulRecipe
   const pathToImage = getImage(image)
   const { tags, instructions, ingredients, tools } = content
@@ -37,8 +38,8 @@ const RecipeTemplate = ({ data }) => {
               <div className="recipe-icons">
                 <article>
                   <BsClock />
-                  <h5>prep time</h5>
-                  <p>{prepTime} min.</p>
+                  <h5>difficulty</h5>
+                  <p>{difficulty}</p>
                 </article>
                 <article>
                   <BsClockHistory />
@@ -130,6 +131,7 @@ export const query = graphql`
       image {
         gatsbyImageData(layout: CONSTRAINED, placeholder: TRACED_SVG)
       }
+      difficulty
     }
   }
 `
