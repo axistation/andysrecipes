@@ -17,7 +17,7 @@ const Contact = ({ data }) => {
             <p>
               Whether you want to improve on a recipe or suggest a new recipe.
               You may fill out this form or directly
-              <a href="mailto:andysrecipes@outlook.com">email me</a>.
+              <a href="mailto:andysrecipes@outlook.com"> email me</a>.
             </p>
           </article>
           <article>
