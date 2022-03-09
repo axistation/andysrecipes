@@ -10,6 +10,7 @@ const query = graphql`
         title
         cookTime
         prepTime
+        servings
         content {
           tags
         }
